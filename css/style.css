@@ -1,6 +1,5 @@
-*{
+body{
     font-size: 21px;
-    background-color: red;
     color: white;
     border: 1px solid black;
 }
@@ -15,5 +14,33 @@ svg{
 }
 h1{
     font-size: 42px;
-
+}
+#bodyContent{
+    display: grid;
+    grid-template-columns: 147px 861px;
+    grid-template-rows: 98px 714px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+#menu{
+    grid-column: 1;
+    grid-row: 1/3;
+    background-color: darkslategray;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: coral;
+}
+menu{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: aqua;
 }
