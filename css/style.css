@@ -82,9 +82,10 @@ main {
     grid-row: 1;
     display: grid;
     grid-template-columns: max-content max-content;
-    justify-content: center;
+    justify-content: start;
     align-content: center;
     align-items: center;
+    padding-left: 42px;
 }
 
 #header>label>img{
@@ -115,9 +116,25 @@ input[type=search]::placeholder{
 #menuRightTop > a > img, #menuRightTop > a > svg{
     width: 21px;
     height: 21px;
-    padding: 5.25px;
+    padding: 5.25px 10.5px;
 }
 #menuRightTop > a > img[alt=Avatar]{
     width: 42px;
     height: 42px;
+}
+#menuLeftBottom{
+    grid-column: 1;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    padding-left: 42px;
+}
+
+#menuLeftBottom > a >img{
+    width: 21px;
+    height: 21px;
+    padding: 5.25px 21px 5.25px 0;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
 }

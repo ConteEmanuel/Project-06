@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="42mm"
+   height="42mm"
+   viewBox="0 0 42 42.000001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="taskOk.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="75.306872"
+     inkscape:cy="82.554717"
+     inkscape:window-width="2560"
+     inkscape:window-height="960"
+     inkscape:window-x="0"
+     inkscape:window-y="1112"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="17.45472,20.973372"
+       orientation="0,-1"
+       id="guide948"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.544264,11.357498"
+       orientation="1,0"
+       id="guide950"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.0848397,0.06402019)">
+    <path
+       id="rect286"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.99999;stroke-linecap:butt;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="m 34.928343,23.614349 -0.017,15.667202 c -3e-6,0.0026 -0.002,0.0047 -0.0043,0.0047 H 6.7452973 c -0.00243,0 -0.00438,-0.0021 -0.00438,-0.0047 V 2.5041676 c 0,-0.0026 0.00196,-0.00469 0.00438,-0.00469 v -4.2e-6 H 34.907006 c 0.0025,0 0.0043,0.00209 0.0043,0.00469 l 0.09189,7.8373716"
+       sodipodi:nodetypes="csssssccssc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.99999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
+       d="M 43.427576,8.4363125 22.19537,29.914952 l -5.338287,-5.039058 0.03311,0.06491"
+       id="path2000" />
+  </g>
+</svg>
