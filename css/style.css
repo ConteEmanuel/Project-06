@@ -71,12 +71,12 @@ main {
     width: 100%;
     height: 100%;
 }
-/*menu styles*/
+/*Header Styles*/
 #header{
     display: grid;
     grid-template-columns: 462px 1fr;
     grid-template-rows: 1fr 1fr;
-}/*left top side*/
+}/*Header Left Top Side*/
 #header>label{
     grid-column: 1;
     grid-row: 1;
@@ -103,8 +103,8 @@ input[type=search]::placeholder{
     color:#898484;
     opacity: 1;
 } 
-/*right top side*/
-#menuRightTop{
+/*Header Right Top Side*/
+#headerRightTop{
     grid-column: 2/3;
     grid-row: 1;
     display: grid;
@@ -113,16 +113,16 @@ input[type=search]::placeholder{
     align-content: center;
     align-items: center;        
 }
-#menuRightTop > a > img, #menuRightTop > a > svg{
+#headerRightTop > a > img, #headerRightTop > a > svg{
     width: 21px;
     height: 21px;
     padding: 5.25px 10.5px;
 }
-#menuRightTop > a > img[alt=Avatar]{
+#headerRightTop > a > img[alt=Avatar]{
     width: 42px;
     height: 42px;
-}
-#menuLeftBottom{
+}/*Header Left Bottom*/
+#headerLeftBottom{
     grid-column: 1;
     grid-row: 2/3;
     display: grid;
@@ -130,7 +130,7 @@ input[type=search]::placeholder{
     padding-left: 42px;
 }
 
-#menuLeftBottom > a >img{
+#headerLeftBottom > a >img{
     width: 21px;
     height: 21px;
     padding: 5.25px 21px 5.25px 0;
