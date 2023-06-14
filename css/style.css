@@ -1,46 +1,76 @@
-body{
+body {
+    box-sizing: border-box;
     font-size: 21px;
-    color: white;
+    color: #ffff;
     border: 1px solid black;
+    height: 100vh;
 }
 
-svg{
+svg {
     width: 42px;
-    fill:#ffffff;
-    stroke:#ffffff;
+    fill: #ffffff;
+    stroke: #ffffff;
+    padding: 21px;
 }
-#logo{
+
+#logo {
     width: 63px;
+    padding: 21px 0;
 }
-h1{
+
+h1 {
     font-size: 42px;
+    padding: 21px 0 21px 5px;
 }
-#bodyContent{
+
+#bodyContent {
     display: grid;
-    grid-template-columns: 147px 861px;
-    grid-template-rows: 98px 714px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
+    grid-template-columns: 231px 777px;
+    grid-template-rows: 105.5px 756px;
+    align-content: center;
 }
-#menu{
+
+#menu {
+    height: 100%;
     grid-column: 1;
     grid-row: 1/3;
     background-color: darkslategray;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 1;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-header{
+
+#menu>div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#menu>a {
+    color: #ffff;
+    display: grid;
+    width: 100%;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+header {
     grid-column: 2/3;
     grid-row: 1;
     background-color: coral;
+    width: 100%;
+    height: 100%;
 }
-menu{
+
+main {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: aqua;
+    width: 100%;
+    height: 100%;
 }
