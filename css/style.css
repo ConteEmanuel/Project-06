@@ -22,27 +22,24 @@ body {
     grid-template-rows: 126.5px 1fr 1fr;
     width: 100%;
     height: 100%;
-    align-items: start;
-    align-content: start;
+    align-items: center;
+    align-content: center;
     justify-items: center;    
 }
 #logo {
     width: 63px;
     padding: 21px 0;
 }
-
 h1 {
     font-size: 31.5px;
     padding: 21px 0 21px 10.5px;
 }
-
 svg {
     width: 21px;
     fill: #ffffff;
     stroke: #ffffff;
     padding: 21px;
 }
-
 #menu>a, #menu >div >a{
     color: #ffff;
     display: grid;
@@ -53,16 +50,13 @@ svg {
     align-items: center;
     gap: 3px;
 }
-
 menu>a{
     align-self: center;
 }
-
 #menu >div >a{
     justify-content: start;
     font-size: 15.75px;
 }
-
 header {
     grid-column: 2/3;
     grid-row: 1;
@@ -70,11 +64,9 @@ header {
     width: 100%;
     height: 100%;
 }
-
 main {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: aqua;
     width: 100%;
     height: 100%;
 }
@@ -94,7 +86,6 @@ main {
     align-content: center;
     padding-left: 42px;
 }
-
 #header>label>img{
     width: 21px;
     padding-right: 21px;
@@ -142,13 +133,11 @@ input[type=search]::placeholder{
     padding-left: 42px;
     align-items: start;
 }
-
 #headerLeftBottom > a >img{
     width: 21px;
     height: 21px;
     padding: 5.25px 21px 5.25px 0;
-}
-
+}/*Header Right Bottom*/
 #headerRightBottom{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
