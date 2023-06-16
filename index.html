@@ -130,7 +130,7 @@
                                     datasets: [{
                                         label: "Conversions by Month",
                                         pointRadius: 7,
-                                        pointBackgroundColor: "rgb(0,0,255)",
+                                        pointBackgroundColor: "#0000FF",
                                         data: xyValues
                                     }]
                                 },
@@ -156,7 +156,7 @@
                         <script>
                             var xValues = ["Electronics", "Clothes", "White Line", "Beauty and Care", "Sports"];
                             var yValues = [65, 39, 34, 24, 25];
-                            var barColors = ["red", "green", "blue", "orange", "brown"];
+                            var barColors = ["#FF0000", "#007500", "#0000FF", "#FFA500", "#E5E600"];
     
                             new Chart("bars", {
                                 type: "bar",
@@ -184,11 +184,10 @@
                             var xValues = ["18+", "25+", "35+", "65+"];
                             var yValues = [20, 30, 40, 10];
                             var barColors = [
-                                "orange",
-                                "blue",
-                                "yellow",
-                                "green",
-                                "pink"
+                                "#FFA500",
+                                "#0000FF",
+                                "#FF0000",
+                                "#007500",
                             ];
     
                             new Chart("pie", {
@@ -215,11 +214,9 @@
                             var xValues = ["Organic", "Referral", "Other"];
                             var yValues = [55, 8, 37];
                             var barColors = [
-                                "#b91d47",
-                                "#00aba9",
-                                "#2b5797",
-                                "#e8c3b9",
-                                "#1e7145"
+                                "#FF0000",
+                                "#0000FF",
+                                "#007500"
                             ];
     
                             new Chart("doughnut", {
@@ -246,8 +243,8 @@
     
                             <script>
                             var xValues = ["Jan", "Feb", "March", "Apr", "Jun"];
-                            var yValues = [15, 24, 44, 49, 55];
-                            var barColors = ["red", "green","blue","orange","brown"];
+                            var yValues = [25, 24, 44, 49, 55];
+                            var barColors = ["#FF0000", "#E5E600","#0000FF","#FFA500","#007500"];
                             
                             new Chart("monthBar", {
                               type: "bar",
