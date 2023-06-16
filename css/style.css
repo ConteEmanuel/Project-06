@@ -1,51 +1,66 @@
 body {
     display: grid;
     justify-content: center;
+    align-content: center;
     box-sizing: border-box;
     font-size: 21px;
-    color: #ffff;
-    height: 100vh;
+    color: #fff;
+    height: max-content;
     font-family: sans-serif;
+    border-radius: 7px;
 }
+
 #bodyContent {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: 211px 797px;
-    grid-template-rows: 126.5px 798px;
+    grid-template-rows: 115.5px 1fr;
     align-content: center;
     gap: 10.5px;
- }
+    border-radius: 7px;
+}
+
 /*Menu (Left Big Menu)Styles Start here*/
 #menu {
     height: 100%;
     grid-column: 1;
     grid-row: 1/3;
-    background-color: darkslategray;
+    background: #dfdbdb;
+    background: linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
+    background: -webkit-linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
+    background: -moz-linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 126.5px 1fr 1fr;
+    grid-template-rows: 111.5px 1fr 1fr;
     width: 100%;
     height: 100%;
     align-items: center;
     align-content: center;
     justify-items: center;
     justify-content: center;
+    border-radius: 7px;
 }
+
 #logo {
     width: 63px;
     padding: 21px 0;
 }
+
 h1 {
     font-size: 31.5px;
     padding: 21px 0 21px 10.5px;
 }
+
 svg {
     width: 21px;
-    fill: #ffffff;
-    stroke: #ffffff;
+    fill: #fff;
+    stroke: #fff;
     padding: 21px;
 }
-#menu>a, #menu >div >a{
-    color: #ffff;
+
+#menu>a,
+#menu>div>a {
+    color: #fff;
     display: grid;
     width: 100%;
     grid-template-columns: max-content max-content;
@@ -54,34 +69,45 @@ svg {
     align-items: center;
     gap: 3px;
 }
-menu>a{
+
+menu>a {
     align-self: center;
 }
-#menu >div >a{
+
+#menu>div>a {
     justify-content: start;
     font-size: 15.75px;
 }
+
 header {
     grid-column: 2/3;
     grid-row: 1;
-    background-color: coral;
+    background: #dfdbdb;
+    background: linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
+    background: -webkit-linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
+    background: -moz-linear-gradient(225deg,#dfdbdb 0%, #463e3e 80%);
     width: 100%;
     height: 100%;
 }
+
 main {
     grid-column: 2/3;
     grid-row: 2/3;
     width: 100%;
     height: 100%;
+    border-radius: 7px;
 }
+
 /*Header Styles Start here*/
-#header{
+#header {
     display: grid;
     grid-template-columns: 462px 1fr;
     grid-template-rows: 1.1fr 0.9fr;
+    border-radius: 7px;
+}
 
-}/*Header Left Top Side*/
-#header>label{
+/*Header Left Top Side*/
+#header>label {
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -90,26 +116,30 @@ main {
     align-content: center;
     padding-left: 42px;
 }
-#header>label>img{
+
+#header>label>img {
     width: 21px;
     padding-right: 21px;
     padding-top: 5.25px;
 }
-input[type=search]{
-    width:346.5px;
+
+input[type="search"] {
+    width: 346.5px;
     height: 31.5px;
-    border-radius:15.75px ;
+    border-radius: 15.75px;
     border: none;
 }
-input[type=search]::placeholder{
+
+input[type="search"]::placeholder {
     font-style: italic;
     text-align: center;
     font-size: 15.75px;
-    color:#898484;
+    color: #898484;
     opacity: 0.8;
-} 
+}
+
 /*Header Right Top Side*/
-#headerRightTop{
+#headerRightTop {
     grid-column: 2/3;
     grid-row: 1;
     display: grid;
@@ -117,19 +147,24 @@ input[type=search]::placeholder{
     justify-content: end;
     align-content: center;
     align-items: center;
-    width: 100%;        
+    width: 100%;
 }
-#headerRightTop > a > img, #headerRightTop > a > svg{
+
+#headerRightTop>a>img,
+#headerRightTop>a>svg {
     width: 21px;
     height: 21px;
     padding: 5.25px 10.5px;
 }
-#headerRightTop > a > img[alt=Avatar]{
+
+#headerRightTop>a>img[alt="Avatar"] {
     width: 42px;
     height: 42px;
     padding-right: 21px;
-}/*Header Left Bottom*/
-#headerLeftBottom{
+}
+
+/*Header Left Bottom*/
+#headerLeftBottom {
     grid-column: 1;
     grid-row: 2/3;
     display: grid;
@@ -137,45 +172,56 @@ input[type=search]::placeholder{
     padding-left: 42px;
     align-items: start;
 }
-#headerLeftBottom > a >img{
+
+#headerLeftBottom>a>img {
     width: 21px;
     height: 21px;
     padding: 5.25px 21px 5.25px 0;
-}/*Header Right Bottom*/
-#headerRightBottom{
+}
+
+/*Header Right Bottom*/
+#headerRightBottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-content: start;
 }
-#headerRightBottom > button{
+
+#headerRightBottom>button {
     box-sizing: border-box;
     font-size: 15.75px;
     font-weight: bold;
     padding: 7px 0;
-    border-radius:15.75px ;
-    background-color: #1857ea;
+    border-radius: 15.75px;
+    background-color: #007261;
+    box-shadow: 6px 4px 20px -8px rgba(82,82,82,1);
+    -webkit-box-shadow: 6px 4px 20px -8px rgba(82,82,82,1);
+    -moz-box-shadow: 6px 4px 20px -8px rgba(82,82,82,1);
     color: #ffff;
     width: 89.25px;
     border: none;
 }
+
 /*Main Styles Start Here*/
-#main img{
+#main img {
     width: 21px;
     height: 31.5px;
 }
-#main{
-    box-sizing: border-box;
+
+#main {
     display: grid;
     height: 798px;
     width: 797px;
     gap: 10.5px;
     grid-template-rows: 1fr repeat(3, 1fr);
+    padding-right: 10.5px;
     align-content: center;
     justify-content: center;
     align-items: stretch;
+    border-radius: 7px;
 }
-#main > div:first-child{
+
+#main>div:first-child {
     width: 797px;
     font-size: 15.75px;
     grid-row: 1;
@@ -183,7 +229,10 @@ input[type=search]::placeholder{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10.5px;
 }
-#visits, #pageViews, #bounce, #profit{
+#visits,
+#pageViews,
+#bounce,
+#profit {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
@@ -192,65 +241,83 @@ input[type=search]::placeholder{
     justify-items: center;
     align-items: stretch;
     gap: 10.5px;
+    border-radius: 7px;
 }
-#visits{
+
+#visits {
     grid-template-columns: 1fr 1fr;
 }
 
-#main > div:first-child > div > img{
+#main>div:first-child>div>img {
     grid-column: 1/2;
     grid-row: 1/3;
     justify-self: end;
     align-self: center;
 }
-#main > div:first-child > div >h2{
+
+#main>div:first-child>div>h2 {
     grid-column: 2/3;
-    justify-self:start;
+    justify-self: start;
     align-self: end;
 }
-#main > div:first-child > div >span{
+
+#main>div:first-child>div>span {
     grid-column: 2/3;
     grid-row: 2/3;
     justify-self: start;
 }
 
-#main > div:nth-child(2){
+#main>div:nth-child(2) {
     grid-row: 2/3;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10.5px;
 }
-#main > div:nth-child(3){
+
+#main>div:nth-child(3) {
     grid-row: 3/4;
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10.5px;
 }
-#scatterChar, #barsChar, #pieChart, #doughnutChar{
-    border: solid 1px black;
+
+#scatterChar,
+#barsChar,
+#pieChart,
+#doughnutChar {
+    box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
+    -webkit-box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
+    -moz-box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
+    border-radius: 15.75px;
+    padding: 5.725px;
+}
+
+#monthBarChar {
+    grid-row: 4/5;
+    align-self: end;
+    box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
+    -webkit-box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
+    -moz-box-shadow: -17px -14px 18px -15px rgba(0,0,0,0.37) inset;
     border-radius: 15.75px;
 }
 
-#monthBarChar{
-    grid-row: 4/5;
-    align-self:end;
-    border: solid 1px black;
-    border-radius: 15.75px;
-}
-#visits{
-    background-color: red;
+#visits {
+    background-color: #FF0000;
     grid-column: 1;
     width: 100%;
 }
-#pageViews{
-    background-color: green;
+
+#pageViews {
+    background-color: #007500;
     grid-column: 2/3;
 }
-#bounce{
-    background-color: blue;
+
+#bounce {
+    background-color: #0000ff;
     grid-column: 3/4;
 }
-#profit{
-    background-color: orange;
+
+#profit {
+    background-color: #FFA500;
     grid-column: 4/5;
 }
