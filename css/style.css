@@ -7,11 +7,12 @@ body {
 }
 #bodyContent {
     display: grid;
-    grid-template-columns: 231px 777px;
-    grid-template-rows: 126.5px 724px;
+    grid-template-columns: 211px 797px;
+    grid-template-rows: 126.5px 798px;
     align-content: center;
-}
-/*menu styles*/
+    gap: 10.5px;
+ }
+/*Menu (Left Big Menu)Styles Start here*/
 #menu {
     height: 100%;
     grid-column: 1;
@@ -24,7 +25,8 @@ body {
     height: 100%;
     align-items: center;
     align-content: center;
-    justify-items: center;    
+    justify-items: center;
+    justify-content: center;
 }
 #logo {
     width: 63px;
@@ -70,7 +72,7 @@ main {
     width: 100%;
     height: 100%;
 }
-/*Header Styles*/
+/*Header Styles Start here*/
 #header{
     display: grid;
     grid-template-columns: 462px 1fr;
@@ -154,4 +156,99 @@ input[type=search]::placeholder{
     color: #ffff;
     width: 89.25px;
     border: none;
+}
+/*Main Styles Start Here*/
+#main img{
+    width: 21px;
+    height: 31.5px;
+}
+#main{
+    box-sizing: border-box;
+    display: grid;
+    height: 798px;
+    width: 797px;
+    gap: 10.5px;
+    grid-template-rows: 1fr repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+#main > div:first-child{
+    width: 797px;
+    font-size: 15.75px;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10.5px;
+}
+#visits, #pageViews, #bounce, #profit{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: stretch;
+    gap: 10.5px;
+}
+#visits{
+    grid-template-columns: 1fr 1fr;
+}
+
+#main > div:first-child > div > img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: end;
+    align-self: center;
+}
+#main > div:first-child > div >h2{
+    grid-column: 2/3;
+    justify-self:start;
+    align-self: end;
+}
+#main > div:first-child > div >span{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: start;
+}
+
+#main > div:nth-child(2){
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10.5px;
+}
+#main > div:nth-child(3){
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10.5px;
+}
+#scatterChar, #barsChar, #pieChart, #doughnutChar{
+    border: solid 1px black;
+    border-radius: 15.75px;
+}
+
+#monthBarChar{
+    grid-row: 4/5;
+    align-self:end;
+    border: solid 1px black;
+    border-radius: 15.75px;
+}
+#visits{
+    background-color: red;
+    grid-column: 1;
+    width: 100%;
+}
+#pageViews{
+    background-color: green;
+    grid-column: 2/3;
+}
+#bounce{
+    background-color: blue;
+    grid-column: 3/4;
+}
+#profit{
+    background-color: orange;
+    grid-column: 4/5;
 }
