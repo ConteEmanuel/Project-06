@@ -8,6 +8,7 @@
    version="1.1"
    id="svg763"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="profit.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +26,8 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="3.814845"
-     inkscape:cx="27.524054"
-     inkscape:cy="136.96493"
+     inkscape:cx="76.936285"
+     inkscape:cy="82.965363"
      inkscape:window-width="2560"
      inkscape:window-height="960"
      inkscape:window-x="0"
@@ -43,8 +44,8 @@
     <path
        id="rect819-6"
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
-       d="M 7.31281,13.635589 C 6.2683288,13.603682 5.4266075,14.424873 5.4266075,15.405068 V 30.219245 L 10.974584,29.774897 9.7616339,22.865043 39.798,22.268503 8.113688,13.671629 8.111378,13.659989 Z"
-       sodipodi:nodetypes="ssccccccs" />
+       d="m 7.31281,13.635589 c -1.0444812,-0.03191 -1.8862025,0.789284 -1.8862025,1.769479 l 0.2744279,6.739974 -0.097294,0.06208 c 0.028632,-0.06743 22.7970572,0.07843 34.1942582,0.06138 L 8.113688,13.671629 8.111378,13.659989 Z"
+       sodipodi:nodetypes="sscccccs" />
     <path
        id="rect819"
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:markers fill stroke"
