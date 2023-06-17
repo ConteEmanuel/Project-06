@@ -1,3 +1,3 @@
 # Project-06
 
-This is a DashBoard, part of the Odín Project Curse. Like an extra i made all the Icons with Inkscape and the chars using chart.js library.
+This is part of the Odín Project Curse. It's a DashBoard.I made all the Icons with Inkscape and the chars using chart.js library as an extra.
